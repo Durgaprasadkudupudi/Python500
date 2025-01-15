@@ -16,3 +16,10 @@ for _ in range(T):
         print("YES")
     else:
         print("NO")
+#valid game
+for i in range(int(input())):
+    N,X = map(int, input().split(' '))
+    if X>=N and X%N == 0:
+        print('YES')
+    else:
+        print('NO')
